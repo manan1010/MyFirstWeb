@@ -7,27 +7,28 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
+            margin: 0;
             padding: 0;
             background-color: #f9f9f9;
         }
-        h1, h2 {
-            color: #333;
-        }
-        p {
-            margin-bottom: 10px;
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
         }
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 20px auto;
+            background: white;
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
         }
         a {
-            color: #007BFF;
+            color: #4CAF50;
             text-decoration: none;
         }
         a:hover {
@@ -35,13 +36,17 @@
         }
         footer {
             text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
             margin-top: 20px;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Expanse Calculator Privacy Policy</h1>
+    </header>
     <div class="container">
-        <h1>Privacy Policy</h1>
         <p>Effective Date: 17 June 2024</p>
         <h2>1. Introduction</h2>
         <p>Welcome to Expanse Calculator. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy policy, or our practices with regards to your personal information, please contact us at <a href="mailto:tandelmanan133@gmail.com">tandelmanan133@gmail.com</a>.</p>
@@ -52,27 +57,27 @@
         <p>We collect personal information that you voluntarily provide to us when you register on the Services, express an interest in obtaining information about us or our products and services, when you participate in activities on the Services, or otherwise when you contact us.</p>
         <p>The personal information that we collect depends on the context of your interactions with us and the Services, the choices you make, and the products and features you use. The personal information we collect may include the following:</p>
         <ul>
-            <li><strong>Personal Information Provided by You:</strong> We collect names; email addresses; and other similar information.</li>
-            <li><strong>Credentials:</strong> We collect passwords, password hints, and similar security information used for authentication and account access.</li>
+            <li>Personal Information Provided by You. We collect names; email addresses; and other similar information.</li>
+            <li>Credentials. We collect passwords, password hints, and similar security information used for authentication and account access.</li>
         </ul>
-        
+
         <h2>3. How We Use Your Information</h2>
         <p>We use personal information collected via our Services for a variety of business purposes described below. We process your personal information for these purposes in reliance on our legitimate business interests, in order to enter into or perform a contract with you, with your consent, and/or for compliance with our legal obligations. We indicate the specific processing grounds we rely on next to each purpose listed below:</p>
         <ul>
-            <li><strong>To facilitate account creation and logon process:</strong> If you choose to link your account with us to a third-party account (such as your Google account), we use the information you allowed us to collect from those third parties to facilitate account creation and logon process for the performance of the contract.</li>
-            <li><strong>To send you marketing and promotional communications:</strong> We and/or our third-party marketing partners may use the personal information you send to us for our marketing purposes if this is in accordance with your marketing preferences. You can opt-out of our marketing emails at any time (see the "Your Privacy Rights" below).</li>
+            <li>To facilitate account creation and logon process. If you choose to link your account with us to a third-party account (such as your Google account), we use the information you allowed us to collect from those third parties to facilitate account creation and logon process for the performance of the contract.</li>
+            <li>To send you marketing and promotional communications. We and/or our third-party marketing partners may use the personal information you send to us for our marketing purposes if this is in accordance with your marketing preferences. You can opt-out of our marketing emails at any time (see the "Your Privacy Rights" below).</li>
         </ul>
-        
+
         <h2>4. Sharing Your Information</h2>
         <p>We may process or share your data that we hold based on the following legal basis:</p>
         <ul>
-            <li><strong>Consent:</strong> We may process your data if you have given us specific consent to use your personal information in a specific purpose.</li>
-            <li><strong>Legitimate Interests:</strong> We may process your data when it is reasonably necessary to achieve our legitimate business interests.</li>
-            <li><strong>Performance of a Contract:</strong> Where we have entered into a contract with you, we may process your personal information to fulfill the terms of our contract.</li>
-            <li><strong>Legal Obligations:</strong> We may disclose your information where we are legally required to do so in order to comply with applicable law, governmental requests, a judicial proceeding, court order, or legal process, such as in response to a court order or a subpoena (including in response to public authorities to meet national security or law enforcement requirements).</li>
-            <li><strong>Vital Interests:</strong> We may disclose your information where we believe it is necessary to investigate, prevent, or take action regarding potential violations of our policies, suspected fraud, situations involving potential threats to the safety of any person and illegal activities, or as evidence in litigation in which we are involved.</li>
+            <li>Consent: We may process your data if you have given us specific consent to use your personal information in a specific purpose.</li>
+            <li>Legitimate Interests: We may process your data when it is reasonably necessary to achieve our legitimate business interests.</li>
+            <li>Performance of a Contract: Where we have entered into a contract with you, we may process your personal information to fulfill the terms of our contract.</li>
+            <li>Legal Obligations: We may disclose your information where we are legally required to do so in order to comply with applicable law, governmental requests, a judicial proceeding, court order, or legal process, such as in response to a court order or a subpoena (including in response to public authorities to meet national security or law enforcement requirements).</li>
+            <li>Vital Interests: We may disclose your information where we believe it is necessary to investigate, prevent, or take action regarding potential violations of our policies, suspected fraud, situations involving potential threats to the safety of any person and illegal activities, or as evidence in litigation in which we are involved.</li>
         </ul>
-        
+
         <h2>5. Security of Your Information</h2>
         <p>We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse.</p>
         
@@ -84,7 +89,7 @@
         <p>If you have questions or comments about this policy, you may email us at <a href="mailto:tandelmanan133@gmail.com">tandelmanan133@gmail.com</a>.</p>
     </div>
     <footer>
-        <p><a href="https://manan1010.github.io/MyFirstWeb/">Back to Home</a></p>
+        <p>&copy; 2024 Expanse Calculator. All rights reserved.</p>
     </footer>
 </body>
 </html>
